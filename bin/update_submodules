@@ -7,4 +7,4 @@ git submodule foreach --recursive git fetch
 echo "🔁  git submodule foreach --recursive git checkout master";
 git submodule foreach --recursive git checkout master
 echo "🔁  git submodule foreach --recursive git pull --ff-only origin master";
-git submodule foreach --recursive git pull --ff-only origin master
+git submodule foreach --recursive 'git pull --ff-only origin master'
